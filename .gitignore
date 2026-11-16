@@ -1,0 +1,40 @@
+# Este repositorio e PUBLICO. Nunca versione credenciais, tokens ou detalhes internos da organizacao.
+
+# Arquivos locais do Claude Code (caso sejam copiados para ca por engano)
+.credentials.json
+settings.local.json
+*.local.json
+history.jsonl
+projects/
+sessions/
+session-env/
+shell-snapshots/
+file-history/
+paste-cache/
+todos/
+statsig/
+cache/
+backups/
+
+# Segredos
+.env
+.env.*
+*.pem
+*.key
+
+# Copias de seguranca e temporarios
+*.bak
+*.tmp
+*.log
+
+# Dependencias de scripts de hooks
+node_modules/
+__pycache__/
+.venv/
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

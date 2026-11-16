@@ -1,0 +1,9 @@
+{
+  "$comment": "Skills de terceiros instaladas com 'npx skills add'. Os scripts de instalacao leem este arquivo. Skills entregues por plugins ficam em config/settings.json.",
+  "skills": [
+    { "name": "grill-me", "source": "mattpocock/skills" },
+    { "name": "find-skills", "source": "vercel-labs/skills" },
+    { "name": "best-practices", "source": "addyosmani/web-quality-skills" },
+    { "name": "supabase-postgres-best-practices", "source": "supabase/agent-skills" }
+  ]
+}

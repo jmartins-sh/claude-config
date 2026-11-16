@@ -1,0 +1,16 @@
+{
+  "name": "jmartins-sh",
+  "owner": {
+    "name": "jmartins-sh"
+  },
+  "metadata": {
+    "description": "Marketplace pessoal com skills, agents, commands e hooks do Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "jmartins-tools",
+      "source": "./plugins/jmartins-tools",
+      "description": "Skills, agents, commands e hooks pessoais."
+    }
+  ]
+}
